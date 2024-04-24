@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contacts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+            background-color: rgb(150, 48, 194);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #c60f0f;
+    border-radius: 5px;
+    background-color: #b99ad7;
+}
+
+.contacts h2 {
+    margin-top: 0;
+    color: #161010;
+}
+
+.contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts li {
+    margin-bottom: 10px;
+}
+
+.contacts li:last-child {
+    margin-bottom: 0;
+}
+
+.contacts li::before {
+    content: attr(data-label);
+    font-weight: bold;
+    margin-right: 5px;
+}
+.abd{
+    align:right;
+    height: 25%;
+    width: 25%;
+}
+
+    </style>
+    <div class="contacts">
+        <br>
+        <br>
+        <h2>My Contacts</h2>
+        <ul>
+            <pre><img class = "abd" src ="C:\Users\valle\OneDrive\Desktop\mypic.jpg" alt="mypic" ></pre>
+            <li>Name: <b>V HITESH RAM</b></li>
+            <li>Email: vallemhiteshram18@gmail.com</li>
+            <li>Phone: 7032297359</li>
+            <li>linkedin:<a href="https://www.linkedin.com/in/hitesh-ram-b87828257/"> HiteshRam</a></li>
+            <li>GitHub: <a href="https://github.com/hiteshram18">hiteshram18</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
